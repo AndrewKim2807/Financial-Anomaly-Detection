@@ -1,5 +1,5 @@
 <h1 align="center">Financial Transactions Anomaly Detection</h1>
-  <h3></h3>
+  <h3 align="center">Detecting Anomalies in Financial Transaction using Deep Autoencoder Networks.</h3>
 
 </div>
 
@@ -18,3 +18,11 @@
 
 
 ![Thumbnail](https://github.com/AndrewKim2807/Financial-Anomaly-Detection/blob/main/Live%20Anomaly%20Detection%20in%20Financial%20Transactions.png)
+
+The Association of Certified Fraud Examiners, a renowned organization dedicated to the study and prevention of fraudulent activities, has reported in its comprehensive Global Fraud Study of the year 2016 that on average, a standard organization experiences a financial loss equivalent to 5% of its yearly revenues as a result of fraudulent behaviors.
+
+According to the esteemed Joseph T. Wells, a highly regarded authority in the field of forensic accounting and fraud examination, the term "fraud" can be defined and understood as:
+```"the abuse of one's occupation for personal enrichment through the deliberate misuse of an organization's resources or assets."```
+
+A similar more recent study conducted by the auditors of PwC, revealed that 30% of the study respondents experienced losses of between 100,000 and 5 million USD in the last 24 months. The study also showed that financial statement fraud cause by far the greatest median loss of the surveyed fraud schemes. Organizations are simultaneously expediting the digitization and restructuring of business processes, which notably impact Accounting Information Systems (AIS) and more broadly, Enterprise Resource Planning (ERP) systems.
+
