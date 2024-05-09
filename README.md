@@ -15,4 +15,6 @@
 
 <br/>
 
-This project explores the use of unsupervised learning models to analyze playlists and generate music recommendations. The dataset employed for this purpose is the Freesound Audio Tagging (FMA) dataset.
+
+
+![Thumbnail](https://github.com/AndrewKim2807/Financial-Anomaly-Detection/blob/main/Live%20Anomaly%20Detection%20in%20Financial%20Transactions.png)
