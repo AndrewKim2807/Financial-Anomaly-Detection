@@ -38,3 +38,10 @@ The visualization above shows a Hierarchical perspective of an Accounting Inform
 5. Comprehensive Dataset
 6. Fraud Detection Models [Confidential]
 7. Combination of Predictions
+
+## Libraries
+1. **Pandas**
+2. **NumPy**
+3. **Matplotlib** & **Seaborn**
+4. **Scikit-learn**
+5. **TensorFlow** & **Keras**
