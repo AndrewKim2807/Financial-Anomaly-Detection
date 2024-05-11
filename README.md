@@ -49,6 +49,19 @@ The visualization above shows a Hierarchical perspective of an Accounting Inform
 ## Autoencoder Neural Networks (AENNs)
 The purpose of this section is to acquaint ourselves with the fundamental idea and principles behind constructing a deep autoencoder neural network (AENN). We will discuss the key components and the precise network architecture of AENNs, along with a demonstration of its implementation using the open-source machine learning library PyTorch.
 
-below illustrates a schematic view of an autoencoder neural network:
+below illustrates a schematic view of an autoencoder network comprised of two non-linear mappings (fully connected feed forward neural networks) referred to as encoder $f_\\theta: \\mathbb{R}^{dx} \\mapsto \\mathbb{R}^{dz}$ and decoder $g_\\theta: \\mathbb{R}^{dz} \\mapsto \\mathbb{R}^{dx}$.
 
 ![Architecture](https://github.com/AndrewKim2807/Financial-Anomaly-Detection/blob/main/NN%20Architecture.png)
+
+Furthermore, AENNs can be interpreted as \"lossy\" data **compression algorithms**. They are \"lossy\" in a sense that the reconstructed outputs will be degraded compared to the original inputs. The difference between the original input $x^i$ and its reconstruction $\\hat{x}^i$ is referred to as **reconstruction error**. In general, AENNs encompass three major building blocks:
+> 1. an encoding function $f_\\theta$
+> 2. a decoding mapping function $g_\\theta$
+> 3. and a lost function $\\mathcal{L_{\\theta}}$
+
+Most commonly the encoder and the decoder mapping functions consist of **several layers of neurons followed by a non-linear function** and shared parameters $\\theta$. The encoder mapping $f_\\theta(\\cdot)$ maps an input vector (e.g. an \"one-hot\" encoded transaction) $x^i$ to a compressed representation $z^i$ referred to as latent space $Z$. This hidden representation $z^i$ is then mapped back by the decoder $g_\\theta(\\cdot)$ to a re-constructed vector $\\hat{x}^i$ of the original input space (e.g. the re-constructed encoded transaction). Formally, the nonlinear mappings of the encoder- and the decoder-function can be defined by:
+
+$f_\\theta(x^i) = s(Wx^i + b)$, and $g_\\theta(z^i) = s′(W′z^i + d)$
+
+
+where $s$ and $s′$ denote non-linear activations with model parameters $\\theta = \\{W, b, W', d\\}$, $W \\in \\mathbb{R}^{d_x \\times d_z}, W' \\in \\mathbb{R}^{d_z \\times d_y}$ are weight matrices and $b \\in \\mathbb{R}^{dx}$, $d \\in \\mathbb{R}^{dz}$ are offset bias vectors.
+
