@@ -28,4 +28,13 @@ A similar more recent study conducted by the auditors of PwC, revealed that 30% 
 
 ![Figure1](https://github.com/AndrewKim2807/Financial-Anomaly-Detection/blob/main/figure%201.png)
 
-The visualization above shows a Hierarchical perspective of an Accounting Information System (AIS) encompasses discrete tiers of abstraction, specifically the data related to business processes, the financial data, and (3) the detailed technical entries stored in specified database tables. Gradually, these systems accumulate extensive amounts of digital evidence at a nearly atomic scale. This is especially true for the diary entries of a company documented in its main ledger and subsidiary accounts. SAP, a leading provider of ERP software, approximates that around 76% of the global transaction revenue is processed through one of their systems.
+The visualization above shows a Hierarchical perspective of an Accounting Information System (AIS) encompasses discrete tiers of abstraction, specifically the data related to business processes, the financial data, and (3) the detailed technical entries stored in specified database tables. Gradually, these systems accumulate extensive amounts of digital evidence at a nearly atomic scale. This is especially true for the diary entries of a company documented in its main ledger and subsidiary accounts. SAP, a leading provider of ERP software, approximates that around **76%** of the global transaction revenue is processed through one of their systems.
+
+## Key Features
+1. Classification of Financial Anomalies
+2. Deep Learning Based Methodology
+3. Autoencoder Neural Network (AENN)
+4. Anomaly Detection
+5. Comprehensive Dataset
+6. Fraud Detection Models [Confidential]
+7. Combination of Predictions
