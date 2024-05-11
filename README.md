@@ -45,3 +45,10 @@ The visualization above shows a Hierarchical perspective of an Accounting Inform
 3. **Matplotlib** & **Seaborn**
 4. **Scikit-learn**
 5. **TensorFlow** & **Keras**
+
+## Autoencoder Neural Networks (AENNs)
+The purpose of this section is to acquaint ourselves with the fundamental idea and principles behind constructing a deep autoencoder neural network (AENN). We will discuss the key components and the precise network architecture of AENNs, along with a demonstration of its implementation using the open-source machine learning library PyTorch.
+
+below illustrates a schematic view of an autoencoder neural network:
+
+![Architecture](https://github.com/AndrewKim2807/Financial-Anomaly-Detection/blob/main/NN%20Architecture.png)
